@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         etnombre=(EditText) findViewById(R.id.txtNombre);
         etmatricula=(EditText) findViewById(R.id.txtMatricula);
+        boton = (Button)findViewById(R.id.btnAceptar);
+        boton = (Button)findViewById(R.id.btnEliminar);
+        boton = (Button)findViewById(R.id.btnLimpiar);
         intent = new Intent(this, MainActivity2.class);
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
