@@ -27,26 +27,26 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btnAceptar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/green_light1"
-                android:text="Button" />
+                android:text="Aceptar" />
 
             <Button
-                android:id="@+id/btnCentro"
+                android:id="@+id/btnEliminar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="Eliminar" />
 
             <Button
-                android:id="@+id/btnDerecha"
+                android:id="@+id/btnLimpiar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="Limpiar" />
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
